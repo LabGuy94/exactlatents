@@ -1,0 +1,16 @@
+weights/*
+!weights/.gitkeep
+
+playground_logs/
+out/
+results/
+runs/
+__pycache__/
+.venv/
+.pytest_cache/
+*.pt
+
+data/**
+!data/**/
+!data/*.jsonl
+!data/**/*.jsonl

@@ -1,0 +1,10 @@
+[project]
+name = "exactlatents"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.14.0",
+    "datasets>=5.0.0",
+    "torch>=2.12.1",
+    "transformers>=5.13.0",
+]
